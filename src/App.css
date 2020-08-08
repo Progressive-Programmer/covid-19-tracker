@@ -29,6 +29,31 @@ body {
     justify-content: space-between;
 }
 
+.table {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+
+}
+
+.table::-webkit-scrollbar {
+    display: none;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8 ;
+}
+
 
 @media (max-width: 800px){
     .app {

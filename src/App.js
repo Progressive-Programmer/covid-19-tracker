@@ -98,7 +98,7 @@ function App() {
 
             <Card className="app__right">
                 <CardContent>
-                    <h3>I am a card onm right side</h3>
+                    <h3>Live cases by country </h3>
                     <Table countries={tableData} />
                     <h3>World wide new cases</h3>
                 </CardContent>
