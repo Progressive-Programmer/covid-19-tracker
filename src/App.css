@@ -1,11 +1,16 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+body * {
+    transition: 0.3s;
+       
 }
 
 body {
     background-color: #f5f6fa;
-    
-    
+     
 }
 
 .app {
@@ -39,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 .app__right .MuiCardContent-root {
@@ -65,7 +71,7 @@ body {
 .table {
     margin-top: 10px;
     overflow: scroll;
-    height: 320px;
+    height: 330px;
     color: #6a5d5d;
 
 }
@@ -92,5 +98,8 @@ body {
 @media (max-width: 800px){
     .app {
         flex-direction: column;
+    }
+    .app__right {
+        margin-top: 20px;
     }
 }

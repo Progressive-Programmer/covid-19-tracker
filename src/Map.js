@@ -8,9 +8,9 @@ function Map({ countries, casesType, center, zoom }) {
   return (
     <div className="map">
       <LeafletMap center={center} zoom={zoom}>
-        <TileLayer
+        <TileLayer 
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
          {/* loop through data and mark them on countries */}
         {showDataOnMap(countries, casesType)}
